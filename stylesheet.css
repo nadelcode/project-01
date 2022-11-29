@@ -1,0 +1,93 @@
+body {
+    font-family: "Avenir Next";
+  } 
+
+  li {
+    list-style: none;
+}
+
+header{
+    background-color: rgba(34, 49, 52, 0.95);
+    color: white;
+    height: 65px;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    font-size: 24px;
+    padding: 0px 40px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin-right: 20px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.menu li {
+    float: left;
+    padding-right: 30px;
+}
+
+.menu {
+    height: 65px;
+    line-height: 65px;
+}
+
+.top-wrapper{
+    text-align: center;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+
+.top-wrapper p{
+    font-weight: 200;
+}
+
+.top-wrapper img{
+    width: 20%;
+}
+
+.top-wrapper span{
+    color: yellow;
+}
+
+h1{
+    font-size: 65px;
+    letter-spacing: 3px;
+    color:rgba(34, 49, 52, 0.95);
+}
+
+.top-wrapper p{
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+.tentang {
+    height: 150px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(215, 220, 221, 0.95);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.tentang h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tentang p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
