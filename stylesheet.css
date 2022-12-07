@@ -2,7 +2,7 @@ body {
     font-family: "Avenir Next";
   } 
 
-  li {
+li {
     list-style: none;
 }
 
@@ -11,9 +11,10 @@ body {
 header{
     background-color: rgba(34, 49, 52, 0.95);
     color: white;
-    height: 65px;
     width: 100%;
     z-index: 10;
+    position: fixed;
+    top: 0px;
 }
 
 .container {
@@ -24,12 +25,11 @@ header{
 .logo{
     float: left;
     font-size: 24px;
-    padding: 0px 40px;
     letter-spacing: 8px;
     font-weight: bold;
-    margin-right: 20px;
     height: 65px;
     line-height: 65px;
+    margin-right: 60px;
 }
 
 .menu li {
@@ -47,13 +47,16 @@ header{
 .top-wrapper{
     text-align: center;
     background-color: white;
-    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
 }
 
 .top-wrapper h1{
     font-size: 65px;
     letter-spacing: 3px;
     color:rgba(34, 49, 52, 0.95);
+    padding-top: 60px;
+    margin-bottom: 0px;
 }
 
 .top-wrapper p{
@@ -95,24 +98,22 @@ header{
 }
 
 .images{
-    display: flex;
+    display: flex;    
     justify-content: space-evenly;
-    
 }
 
 .projects img{
-    width: 200px;
-    margin: 15px 0px;
+    width: 25%;
+    margin: 25px 0px;
     box-shadow: 5px 5px rgba(198, 195, 195, 0.1);
     border-radius: 5px;
 }
 
-.list-text{
+.proyek-list{
     display: flex;
-    
 }
 
-.list-text li{
+.proyek-list li{
     flex: auto;
 }
 
@@ -128,14 +129,77 @@ header{
     padding: 60px 0px;
     background-color: rgba(178, 178, 178, 0.1);
     width: 100%;
-    margin: 0 auto;
+ 
 }
 
-.email input{
-    padding: 15px 250px;
+.email{
+    width: 50%;
+    padding: 15px 15px;
     border-radius: 8px;
     border: none;
     box-shadow:  0px 2px rgba(198, 195, 195, 0.1);
-    color: lightgrey;
+    color: rgb(197, 197, 197);
+    display: block;
+    margin: 0 auto;
+    
 }
+
+.message {
+    width: 50%;
+    padding: 15px 15px;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  0px 2px rgba(198, 195, 195, 0.1);
+    color: rgb(197, 197, 197);
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button {
+    margin-top: 32px;
+    padding: 15px 150px;
+    background-color: rgb(249, 245, 132);
+    border: none;
+    box-shadow:  0px 2px rgba(198, 195, 195, 0.1);
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.formulir h2{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+   height: 90px;
+   padding-bottom: 60px;
+   background-color: rgb(117, 116, 116);
+   margin-bottom: 0px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    height: 65px;
+    line-height: 65px;
+    margin-right: 60px;
+    color: white;
+}
+
+.footer-menu{
+    float: right;
+}
+
+.footer-menu li{
+    color: white;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
 
